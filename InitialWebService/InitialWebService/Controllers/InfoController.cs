@@ -34,8 +34,9 @@ namespace InitialWebService.Controllers
         }
 
         // POST api/info
-        public void Post([FromBody]string value)
+        public string Post([FromBody]string value)
         {
+            return "Hello POST World";
         }
 
         // PUT api/info/5
